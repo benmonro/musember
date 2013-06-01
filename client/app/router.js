@@ -1,0 +1,2 @@
+Client.Router.map(function() {
+});
