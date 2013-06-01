@@ -61,6 +61,9 @@
     <file path="$PROJECT_DIR$/client/tmp/components/normalize-css/README.md" changelist="128f3bfc-a2dc-4183-aa4e-50e9a47a99bf" time="1370071894949" ignored="false" />
     <file path="/Gruntfile.js" changelist="128f3bfc-a2dc-4183-aa4e-50e9a47a99bf" time="1370073131350" ignored="false" />
     <file path="/index.handlebars" changelist="128f3bfc-a2dc-4183-aa4e-50e9a47a99bf" time="1370074120017" ignored="false" />
+    <file path="/express.js" changelist="128f3bfc-a2dc-4183-aa4e-50e9a47a99bf" time="1370117826894" ignored="false" />
+    <file path="/app.js" changelist="128f3bfc-a2dc-4183-aa4e-50e9a47a99bf" time="1370117572946" ignored="false" />
+    <file path="/routes.js" changelist="128f3bfc-a2dc-4183-aa4e-50e9a47a99bf" time="1370117547151" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,10 +133,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.handlebars" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.handlebars" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/app/modules/index/index.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="3" selection-start="21" selection-end="21" vertical-scroll-proportion="0.03562753">
+            <state line="2" column="3" selection-start="21" selection-end="21" vertical-scroll-proportion="-1.4193548">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="21" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/config/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="1" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/config/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="27" selection-start="180" selection-end="180" vertical-scroll-proportion="0.08688784">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="express.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/config/express.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,7 +200,9 @@
         <entry file="file://$PROJECT_DIR$/client/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
+              <folding>
+                <marker date="1370074191000" expanded="true" signature="186:317" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,77 +212,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/README.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/charcoal/readme.md">
-          <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="25" selection-start="770" selection-end="770" vertical-scroll-proportion="-17.032259">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grunt.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/charcoal/grunt.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="403" column="10" selection-start="8933" selection-end="9201" vertical-scroll-proportion="-23.5">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#512#1657#0" expanded="false" />
-                <element signature="e#537#681#0" expanded="false" />
-                <element signature="e#697#775#0" expanded="false" />
-                <element signature="e#795#879#0" expanded="false" />
-                <element signature="e#1012#1081#0" expanded="false" />
-                <element signature="e#1096#1167#0" expanded="false" />
-                <element signature="e#1182#1263#0" expanded="false" />
-                <element signature="e#1284#1510#0" expanded="false" />
-                <element signature="e#1526#1651#0" expanded="false" />
-                <element signature="e#1719#2503#0" expanded="false" />
-                <element signature="e#2596#2689#0" expanded="false" />
-                <element signature="e#2741#2937#0" expanded="false" />
-                <element signature="e#2951#3105#0" expanded="false" />
-                <element signature="e#3160#3314#0" expanded="false" />
-                <element signature="e#3329#3446#0" expanded="false" />
-                <element signature="e#3509#3890#0" expanded="false" />
-                <element signature="e#3903#4361#0" expanded="false" />
-                <element signature="e#4374#4858#0" expanded="false" />
-                <element signature="e#4915#5168#0" expanded="false" />
-                <element signature="e#5230#5313#0" expanded="false" />
-                <element signature="e#5327#5456#0" expanded="false" />
-                <element signature="e#5525#5706#0" expanded="false" />
-                <element signature="e#5720#5893#0" expanded="false" />
-                <element signature="e#5965#6108#0" expanded="false" />
-                <element signature="e#6123#6275#0" expanded="false" />
-                <element signature="e#6353#7897#0" expanded="false" />
-                <element signature="e#7912#8402#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -261,6 +231,10 @@
         <option value="$PROJECT_DIR$/client/Gruntfile.js" />
         <option value="$PROJECT_DIR$/client/app/application.handlebars" />
         <option value="$PROJECT_DIR$/client/app/modules/index/index.handlebars" />
+        <option value="$PROJECT_DIR$/server/config/routes.js" />
+        <option value="$PROJECT_DIR$/server/app.js" />
+        <option value="$PROJECT_DIR$/server/config/express.js" />
+        <option value="$PROJECT_DIR$/server/config/config.js" />
       </list>
     </option>
   </component>
@@ -325,6 +299,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musember" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -335,43 +323,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="musember" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="musember" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -703,7 +659,9 @@
     <entry file="file://$PROJECT_DIR$/client/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1370074191000" expanded="true" signature="186:317" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -730,7 +688,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/modules/index/index.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="21" selection-end="21" vertical-scroll-proportion="0.03562753">
+        <state line="2" column="3" selection-start="21" selection-end="21" vertical-scroll-proportion="-1.4193548">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="1" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="21" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="27" selection-start="180" selection-end="180" vertical-scroll-proportion="0.08688784">
           <folding />
         </state>
       </provider>
