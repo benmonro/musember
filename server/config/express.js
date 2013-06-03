@@ -1,5 +1,6 @@
 
 var express = require('express'),
+    google = require("../routes/google"),
     path = require('path');
 
 module.exports = function(app, config) {
@@ -14,8 +15,13 @@ module.exports = function(app, config) {
     app.use(express.logger('dev'));
     app.use(express.bodyParser());
     app.use(express.methodOverride());
+    app.use(express.cookieParser("google-node"));
+    app.use(express.session());
     app.use(app.router);
     app.use(express.static(path.join(config.root, 'public')));
+
+    google.CLIENT_ID = app.get('clientId');
+    google.CLIENT_SECRET = app.get('clientSecret');
 
 // development only
     if ('development' == app.get('env')) {
